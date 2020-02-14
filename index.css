@@ -1,14 +1,18 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  margin:0em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 #title
 {
     text-align: center;
-    font-size: 4em;
-    margin-bottom: 2em;
+    font-size: 50px;
+    margin:0em;
+    height:70px;
+    background-color: #512b58;
 }
 .box-grid{
-  padding-top:2em;
+  padding-top:1.5em;
   display: grid;
   grid-template-columns: 8em 8em 8em;
   grid-template-rows: 8em 8em 8em;
@@ -22,29 +26,82 @@ body{
   text-align: center;
   color:rgb(28, 28, 29);
   font-size: 4em;
+  background-color: #79bac1;
 }
 #line
 {
   display: grid;
-  grid-template-rows: 8em;
+  grid-template-rows: 7em;
   border-bottom: 4px solid black;
   position: relative;
-  bottom: 5px;
-  margin-top: 5px;
-}
-.reset
-{
-  color: rgb(2, 128, 231);
-}
-.press1
-{
-  background-image: url(images/circle.png);
-}
-.press2
-{
-  background-image: url(images/cross.png);
 }
 #box0:hover,#box1:hover,#box2:hover,#box3:hover,#box4:hover,#box5:hover,#box6:hover,#box7:hover,#box8:hover
 {
-  background-color:rgb(2, 128, 231);
+  background-color:#2a7886;
+}
+#line{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% auto;
+  height: 25%;
+  color: #f1f3f4;
+}
+.margin{
+  height:10px;
+  background-color: #512b58;
+}
+.margin1{
+  height:20px;
+  background-color: #1c0720;
+  position: relative;
+  top:3.25em;
+}
+.buttons
+{
+  padding-top: 1em;
+  display: grid;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+button.start
+{
+  background-color: #df2746;
+  color: aliceblue;
+  border-radius: 8px;
+  font-size: 1.8em;
+  margin-right:1.5em;
+  padding:0.25em;
+  box-shadow: 2px 3px #1c0720; 
+}
+button.reload
+{
+  font-size: 1.8em;
+  margin-left:1.5em;
+  background-color: #611e6d;
+  color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 2px 3px #1c0720;
+}
+.email
+{
+  background-color: #1c0720;
+  color: #f1f3f4;
+  height:2em;
+}
+a.fb{
+  background-color: #1c0720;
+  color: #f1f3f4;
+  font-style: normal;
+  text-decoration: none;
+  width: 150px;
+}
+.headder
+{
+  background-color: #1c0720;
+}
+.about
+{
+  display: grid;
+  justify-content: end;
 }
