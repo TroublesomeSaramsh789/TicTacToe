@@ -253,6 +253,6 @@ function checkdraw()
     head.innerText=("DRAW");
   }
 } 
-head.innerText=('CLICK TO PLAY');
 play();
-};      
+};    
+start();  

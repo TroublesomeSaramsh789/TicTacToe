@@ -2,6 +2,7 @@ body{
   margin:0em;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-family: 'Roboto', sans-serif;
+  background-color: #ece6bf;
 }
 #title
 {
@@ -58,36 +59,25 @@ body{
 }
 .buttons
 {
-  padding-top: 1em;
+  padding-top:1.5em;
   display: grid;
-  display: flex;
   justify-content: center;
-  padding-bottom: 1em;
 }
-button.start
-{
-  background-color: #df2746;
-  color: aliceblue;
-  border-radius: 8px;
-  font-size: 1.8em;
-  margin-right:1.5em;
-  padding:0.25em;
-  box-shadow: 2px 3px #1c0720; 
-}
-button.reload
-{
-  font-size: 1.8em;
-  margin-left:1.5em;
-  background-color: #611e6d;
-  color: aliceblue;
-  border-radius: 8px;
+button
+{  font-size: 2em;
   box-shadow: 2px 3px #1c0720;
+  background-color: #450f4e; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 .email
 {
   background-color: #1c0720;
   color: #f1f3f4;
-  height:2em;
 }
 a.fb{
   background-color: #1c0720;
